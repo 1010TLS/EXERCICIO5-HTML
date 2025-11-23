@@ -1,0 +1,79 @@
+/* ⋆⁺₊⋆ ━━━━⊱༒︎ ESTILO PRINCIPAL ༒︎⊰━━━━ ⋆⁺₊⋆ */
+body {
+    background: #e8f1ff;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3d4a63;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #c6d6ff;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 32px;
+    color: #3674e0;
+}
+
+.subtitulo {
+    margin-top: 30px;
+    color: #4a6bb3;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #b9ccff;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-azul {
+    background: #5b8dff;
+}
+
+.btn-cinza {
+    background: #9baac4;
+}
+
+.btn-edit {
+    background: #6fa3ff;
+}
+
+.btn-del {
+    background: #ff6b6b;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #aac5ff;
+}
+
+table th {
+    background: #dae6ff;
+}
